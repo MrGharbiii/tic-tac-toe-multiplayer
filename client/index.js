@@ -363,10 +363,12 @@ flag = 1;
 function myfunc_3() {
   if (flag === 1) {
     document.getElementById('b1').value = 'X';
+    socket.send('X in B1');
     document.getElementById('b1').disabled = true;
     flag = 0;
   } else {
     document.getElementById('b1').value = '0';
+    socket.send('O in B1');
     document.getElementById('b1').disabled = true;
     flag = 1;
   }
@@ -375,10 +377,12 @@ function myfunc_3() {
 function myfunc_4() {
   if (flag === 1) {
     document.getElementById('b2').value = 'X';
+    socket.send('X in B2');
     document.getElementById('b2').disabled = true;
     flag = 0;
   } else {
     document.getElementById('b2').value = '0';
+    socket.send('O in B2');
     document.getElementById('b2').disabled = true;
     flag = 1;
   }
@@ -387,10 +391,12 @@ function myfunc_4() {
 function myfunc_5() {
   if (flag === 1) {
     document.getElementById('b3').value = 'X';
+    socket.send('X in B3');
     document.getElementById('b3').disabled = true;
     flag = 0;
   } else {
     document.getElementById('b3').value = '0';
+    socket.send('O in B3');
     document.getElementById('b3').disabled = true;
     flag = 1;
   }
@@ -399,10 +405,12 @@ function myfunc_5() {
 function myfunc_6() {
   if (flag === 1) {
     document.getElementById('b4').value = 'X';
+    socket.send('X in B4');
     document.getElementById('b4').disabled = true;
     flag = 0;
   } else {
     document.getElementById('b4').value = '0';
+    socket.send('O in B4');
     document.getElementById('b4').disabled = true;
     flag = 1;
   }
@@ -411,10 +419,12 @@ function myfunc_6() {
 function myfunc_7() {
   if (flag === 1) {
     document.getElementById('b5').value = 'X';
+    socket.send('X in B5');
     document.getElementById('b5').disabled = true;
     flag = 0;
   } else {
     document.getElementById('b5').value = '0';
+    socket.send('O in B5');
     document.getElementById('b5').disabled = true;
     flag = 1;
   }
@@ -423,10 +433,12 @@ function myfunc_7() {
 function myfunc_8() {
   if (flag === 1) {
     document.getElementById('b6').value = 'X';
+    socket.send('X in B6');
     document.getElementById('b6').disabled = true;
     flag = 0;
   } else {
     document.getElementById('b6').value = '0';
+    socket.send('O in B6');
     document.getElementById('b6').disabled = true;
     flag = 1;
   }
@@ -435,10 +447,12 @@ function myfunc_8() {
 function myfunc_9() {
   if (flag === 1) {
     document.getElementById('b7').value = 'X';
+    socket.send('X in B7');
     document.getElementById('b7').disabled = true;
     flag = 0;
   } else {
     document.getElementById('b7').value = '0';
+    socket.send('O in B7');
     document.getElementById('b7').disabled = true;
     flag = 1;
   }
@@ -447,10 +461,12 @@ function myfunc_9() {
 function myfunc_10() {
   if (flag === 1) {
     document.getElementById('b8').value = 'X';
+    socket.send('X in B8');
     document.getElementById('b8').disabled = true;
     flag = 0;
   } else {
     document.getElementById('b8').value = '0';
+    socket.send('O in B8');
     document.getElementById('b8').disabled = true;
     flag = 1;
   }
@@ -459,10 +475,12 @@ function myfunc_10() {
 function myfunc_11() {
   if (flag === 1) {
     document.getElementById('b9').value = 'X';
+    socket.send('X in B9');
     document.getElementById('b9').disabled = true;
     flag = 0;
   } else {
     document.getElementById('b9').value = '0';
+    socket.send('O in B9');
     document.getElementById('b9').disabled = true;
     flag = 1;
   }

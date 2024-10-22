@@ -2,6 +2,8 @@ const WebSocket = require('ws'); // Install ws package with `npm install ws`
 
 const server = new WebSocket.Server({ port: 8080 });
 
+function parse_pos(message) {}
+
 server.on('connection', (socket) => {
   console.log('New client connected!');
 
@@ -10,8 +12,11 @@ server.on('connection', (socket) => {
 
   // Receive messages from the client
   socket.on('message', (message) => {
-    console.log(`Received: ${message}`);
-    socket.send(`You said: ${message}`);
+    console.log(`${message}`);
+    const msgStr = message.toString();
+    console.log(msgStr);
+
+    socket.send(msgStr);
   });
 
   // Handle client disconnection
